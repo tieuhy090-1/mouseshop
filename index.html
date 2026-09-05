@@ -1,11 +1,70 @@
 <!DOCTYPE html>
 <html lang="vi">
-<head></head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CLOTHES SHOP</title>
+
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        .qr {
+            width: 350px;
+            max-width: 90%;
+            height: auto;
+        }
+
+        .download-btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 14px 28px;
+            background: #000;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 17px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .download-btn:active {
+            transform: scale(0.95);
+        }
+    </style>
+</head>
+
 <body>
-    <p><b><big><mark>QUÉT MÃ QR DƯỚI ĐÂY NHA</mark></big></b></p>
-<img src="/images/QR.jpg" width="350px" alt="QR" title="QR">
-<a href="QR.jpg" download="QR.jpg">
-    <button>Download</button>
-</a>
+
+    <p>
+        <b>
+            <big>
+                <mark>QUÉT MÃ QR DƯỚI ĐÂY NHA</mark>
+            </big>
+        </b>
+    </p>
+
+    <img
+        src="./QR.jpg"
+        class="qr"
+        alt="QR"
+        title="QR"
+    >
+
+    <br>
+
+    <a
+        href="./QR.jpg"
+        download="QR.jpg"
+        class="download-btn"
+    >
+        DOWNLOAD
+    </a>
+
 </body>
 </html>
